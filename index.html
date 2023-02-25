@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend 1 Contest 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <p class="h2 mt-2">Bootstrap Example</p>
+
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.w3schools.com/bootstrap/ny.jpg" class="d-block w-100" alt="slide1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.w3schools.com/bootstrap/la.jpg" class="d-block w-100" alt="slide2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.w3schools.com/bootstrap/chicago.jpg" class="d-block w-100" alt="slide3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <p class="h2 mt-4">Some Content</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quia fugiat rem assumenda maxime eveniet
+            illo sequi quo tempore eum fuga in modi itaque vero velit aliquid debitis mollitia quasi repellendus nulla,
+            ipsam exercitationem doloribus ad ratione? Illo inventore odio eaque quam optio fugiat est debitis eligendi
+            incidunt perferendis numquam ipsam consequatur quaerat quas voluptatum rerum assumenda consequuntur,
+            temporibus odit! Consectetur officiis itaque accusamus commodi est officia, sunt dolore, quod, architecto
+            laudantium odit nulla recusandae harum libero voluptas eveniet unde.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis nihil sint neque deleniti repudiandae
+            accusantium asperiores officia? Aliquid fugiat aliquam nostrum facilis aspernatur dolore autem quaerat ad
+            modi, itaque rerum odit qui possimus perspiciatis asperiores animi. Exercitationem, quasi dolorum. Doloribus
+            repellendus doloremque fuga minima? Commodi, id? Nobis adipisci maxime id, fuga quidem suscipit? Consequatur
+            similique ullam soluta aut in deleniti? Dignissimos nihil odio quas blanditiis dicta laboriosam.</p>
+
+        <!-- cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-lg-3">
+            <div class="col">
+                <div class="card">
+                    <img src="https://www.essentialhome.eu/inspirations/wp-content/uploads/2018/04/10-Dubai-Buildings-That-Will-Blow-Your-Mind.png"
+                        class="card-img-top" alt="card1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique porro
+                            temporibus voluptates praesentium, animi, rerum placeat neque libero quod a nesciunt ex
+                            corporis quis iure iste ratione, eum ad? Laudantium iure perferendis, reiciendis, rerum
+                            eligendi neque aut amet eius molestias praesentium, quidem perspiciatis earum illo voluptate
+                            et dolorum eveniet veritatis quod tempora hic fugit vero assumenda debitis sed? Dolor,
+                            nihil?</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://www.essentialhome.eu/inspirations/wp-content/uploads/2018/04/10-Dubai-Buildings-That-Will-Blow-Your-Mind.png"
+                        class="card-img-top" alt="card2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique porro
+                            temporibus voluptates praesentium, animi, rerum placeat neque libero quod a nesciunt ex
+                            corporis quis iure iste ratione, eum ad? Laudantium iure perferendis, reiciendis, rerum
+                            eligendi neque aut amet eius molestias praesentium, quidem perspiciatis earum illo voluptate
+                            et dolorum eveniet veritatis quod tempora hic fugit vero assumenda debitis sed? Dolor,
+                            nihil?</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://www.essentialhome.eu/inspirations/wp-content/uploads/2018/04/10-Dubai-Buildings-That-Will-Blow-Your-Mind.png"
+                        class="card-img-top" alt="card3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique porro
+                            temporibus voluptates praesentium, animi, rerum placeat neque libero quod a nesciunt ex
+                            corporis quis iure iste ratione, eum ad? Laudantium iure perferendis, reiciendis, rerum
+                            eligendi neque aut amet eius molestias praesentium, quidem perspiciatis earum illo voluptate
+                            et dolorum eveniet veritatis quod tempora hic fugit vero assumenda debitis sed? Dolor,
+                            nihil?</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- form -->
+        <p class="h3 mt-4">Form</p>
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Enter your Message"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+
+        <!-- Table -->
+        <p class="h3 mt-4">Table</p>
+
+        <table class="table border-top">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John Smith</td>
+                    <td>john@example.com</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jane Doe</td>
+                    <td>jane@example.com</td>
+                    <td>Ut at lectus ut mauris laoreet bibendum.</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Bob Johnson</td>
+                    <td>bob@example.com</td>
+                    <td>Vivamus auctor eros in est vulputate, at tempus ipsum gravida.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
